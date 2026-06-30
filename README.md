@@ -15,23 +15,27 @@ This repository documents the completion of Step 1 of the 100Hires portfolio pro
 | Tool | Purpose | Status |
 |------|---------|--------|
 | [Cursor IDE](https://cursor.com/) | AI-powered code editor | ✅ Installed |
+| Claude Code *(Cursor Extension)* | AI coding assistant by Anthropic, integrated into Cursor | ✅ Installed & logged in |
+| Codex *(Cursor Extension)* | AI code completion and generation tool | ✅ Installed & logged in |
 | [GitHub](https://github.com/) | Version control and public portfolio hosting | ✅ Account active |
-| Claude Code *(Cursor Extension)* | AI coding assistant by Anthropic | ⚠️ Not available |
-| Codex *(Cursor Extension)* | AI code completion and generation tool | ⚠️ Not available |
 
 ---
 
 ## Steps Completed
 
-1. **Installed Cursor IDE** — Downloaded and installed from [cursor.com](https://cursor.com/). Cursor is a VS Code-based editor with built-in AI capabilities.
+1. **Installed Cursor IDE** — Downloaded and installed from [cursor.com](https://cursor.com/). Cursor is a VS Code-based editor with built-in AI capabilities, chosen here as the primary development environment.
 
-2. **Created a Public GitHub Repository** — Set up this repository (`100hires-portfolio`) as a public repo to serve as the submission and portfolio base.
+2. **Added Claude Code Extension** — Located and installed the Claude Code extension in Cursor, then logged in successfully using my Anthropic account.
 
-3. **Opened the Repository in Cursor** — Cloned the repository and opened the project folder in Cursor IDE.
+3. **Added Codex Extension** — Located and installed the Codex extension in Cursor and completed the login process.
 
-4. **Created and Edited README.md** — Documented all completed steps, tools used, and issues encountered in this file.
+4. **Created a Public GitHub Repository** — Set up this repository (`100hires-portfolio`) as a public repo to serve as the submission and portfolio base.
 
-5. **Committed and Pushed to GitHub** — Changes were committed and pushed to the `main` branch.
+5. **Opened the Repository in Cursor** — Opened the project folder in Cursor IDE.
+
+6. **Created and Edited README.md** — Documented all completed steps, tools used, and issues encountered in this file.
+
+7. **Committed and Pushed to GitHub** — Changes were committed with a descriptive message and pushed to the `main` branch.
 
 ---
 
@@ -39,14 +43,17 @@ This repository documents the completion of Step 1 of the 100Hires portfolio pro
 
 | Issue | How I Solved It |
 |-------|----------------|
-| **Claude Code extension not found in Cursor** | Searched in both Cursor's Marketplace and Extensions panel — the extension did not appear. After researching, I found that Cursor's latest version has changed how extensions are managed, and Claude Code is no longer listed as a standalone extension. I documented this transparently rather than skipping over it. |
-| **Codex extension not found in Cursor** | Same issue as above. Codex was not available in the current version of Cursor's Marketplace. I proceeded with the remaining steps and noted this discrepancy. |
+| **Claude Code and Codex not immediately visible in Cursor** | Initially could not find the extensions in the default view. After exploring Cursor's interface more thoroughly, I located the correct section and successfully installed both extensions. |
 
 ---
 
 ## Reflection
 
-This step tested the ability to set up a development environment and follow technical instructions independently. Not all steps went as described — Claude Code and Codex were not available in the current version of Cursor. Rather than fabricating a result, I chose to document the issue honestly and move forward with what was possible. I believe transparency and problem-solving under uncertainty are more valuable signals than a perfectly smooth setup.
+This first step was a practical test of setting up a proper development environment and navigating unfamiliar tools independently. Although I initially struggled to locate the Claude Code and Codex extensions due to Cursor's updated interface, I persisted and found them successfully. I'm looking forward to the next step in the process.
+
+---
+
+*Submitted as part of the 100Hires portfolio evaluation process.*
 
 ---
 
