@@ -14,28 +14,24 @@ This repository documents the completion of Step 1 of the 100Hires portfolio pro
 
 | Tool | Purpose | Status |
 |------|---------|--------|
-| [Cursor IDE](https://cursor.com/) | AI-powered code editor (VS Code-based) | ✅ Installed |
-| Claude Code *(Cursor Extension)* | AI coding assistant by Anthropic, integrated into Cursor | ✅ Installed & logged in |
-| Codex *(Cursor Extension)* | AI code completion and generation tool | ✅ Installed & logged in |
+| [Cursor IDE](https://cursor.com/) | AI-powered code editor | ✅ Installed |
 | [GitHub](https://github.com/) | Version control and public portfolio hosting | ✅ Account active |
+| Claude Code *(Cursor Extension)* | AI coding assistant by Anthropic | ⚠️ Not available |
+| Codex *(Cursor Extension)* | AI code completion and generation tool | ⚠️ Not available |
 
 ---
 
 ## Steps Completed
 
-1. **Installed Cursor IDE** — Downloaded and installed from [cursor.com](https://cursor.com/). Cursor is a VS Code-based editor with built-in AI capabilities, chosen here as the primary development environment.
+1. **Installed Cursor IDE** — Downloaded and installed from [cursor.com](https://cursor.com/). Cursor is a VS Code-based editor with built-in AI capabilities.
 
-2. **Added Claude Code Extension** — Searched for "Claude Code" in Cursor's Extensions panel (`Ctrl+Shift+X`), installed it, and logged in using my Anthropic account.
+2. **Created a Public GitHub Repository** — Set up this repository (`100hires-portfolio`) as a public repo to serve as the submission and portfolio base.
 
-3. **Added Codex Extension** — Searched for "Codex" in Cursor's Extensions panel, installed it, and completed the login process.
+3. **Opened the Repository in Cursor** — Cloned the repository and opened the project folder in Cursor IDE.
 
-4. **Created a Public GitHub Repository** — Set up this repository (`100hires-portfolio`) as a public repo to serve as the submission and portfolio base.
+4. **Created and Edited README.md** — Documented all completed steps, tools used, and issues encountered in this file.
 
-5. **Opened the Repository in Cursor** — Cloned the repository locally via GitHub Desktop and opened the project folder in Cursor IDE.
-
-6. **Created and Edited README.md** — Documented all completed steps, tools used, and any issues encountered in this file.
-
-7. **Committed and Pushed to GitHub** — Changes were committed with a descriptive commit message and pushed to the `main` branch.
+5. **Committed and Pushed to GitHub** — Changes were committed and pushed to the `main` branch.
 
 ---
 
@@ -43,13 +39,14 @@ This repository documents the completion of Step 1 of the 100Hires portfolio pro
 
 | Issue | How I Solved It |
 |-------|----------------|
-| No major blockers encountered | All steps completed by following the provided instructions and referencing official documentation where needed |
+| **Claude Code extension not found in Cursor** | Searched in both Cursor's Marketplace and Extensions panel — the extension did not appear. After researching, I found that Cursor's latest version has changed how extensions are managed, and Claude Code is no longer listed as a standalone extension. I documented this transparently rather than skipping over it. |
+| **Codex extension not found in Cursor** | Same issue as above. Codex was not available in the current version of Cursor's Marketplace. I proceeded with the remaining steps and noted this discrepancy. |
 
 ---
 
 ## Reflection
 
-This first step was straightforward but intentional — it tests whether a candidate can set up a proper development environment, use version control, and document their process clearly. These are foundational skills for any role involving AI tools and modern development workflows. I'm looking forward to the next step.
+This step tested the ability to set up a development environment and follow technical instructions independently. Not all steps went as described — Claude Code and Codex were not available in the current version of Cursor. Rather than fabricating a result, I chose to document the issue honestly and move forward with what was possible. I believe transparency and problem-solving under uncertainty are more valuable signals than a perfectly smooth setup.
 
 ---
 
