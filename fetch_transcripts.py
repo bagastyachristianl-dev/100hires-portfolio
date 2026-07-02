@@ -6,27 +6,29 @@ Automatically fetches YouTube video transcripts and saves each one as a
 Usage:
 1. pip install youtube-transcript-api
 2. Fill in the VIDEOS dictionary below: "expert_name": ["video_id_1", "video_id_2", ...]
+   (video_id is the code after "v=" in a YouTube URL, e.g. youtube.com/watch?v=ABC123 -> "ABC123")
 3. Run: python fetch_transcripts.py
 """
 
 import os
 from youtube_transcript_api import YouTubeTranscriptApi
 
+# Fill in here: expert name -> list of their video IDs
 VIDEOS = {
     "kevin-indig": [
-        "jxXPpXL2pFg",
-        "c-VtgjXWsK4",
+        "jxXPpXL2pFg",  # Beyond the SERP: Winning the Visibility Layer and Trust Stack (2026)
+        "c-VtgjXWsK4",  # Future of Search (SEO, AI SEO, AEO, GEO) panel (2026)
     ],
     "lily-ray": [
-        "c-VtgjXWsK4",
+        "c-VtgjXWsK4",  # Future of Search panel (also features Kevin Indig)
     ],
     "garrett-sussman": [
-        "arAxL5MteVg",
+        "arAxL5MteVg",  # The SEO Weekly - Episode 11
     ],
     "britney-muller": [
-        "l4fIHPtjIMY",
-        "YZD2lmcbryo",
-        "N2fb2b_hSOU",
+        "l4fIHPtjIMY",  # Breaking Down AI & Search changes in 2025
+        "YZD2lmcbryo",  # SEO is Changing: Why Brand Mentions are the New Backlinks
+        "N2fb2b_hSOU",  # The Future of AI in Search - Whiteboard Friday Revisited
     ],
     "aleyda-solis": [
         # Visit https://www.youtube.com/c/CrawlingMondaysbyAleyda
@@ -39,8 +41,9 @@ OUTPUT_DIR = "research/youtube-transcripts"
 
 def fetch_and_save(expert_name, video_id):
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id)
-        full_text = "\n".join([entry["text"] for entry in transcript])
+        ytt_api = YouTubeTranscriptApi()
+        transcript = ytt_api.fetch(video_id)
+        full_text = "\n".join([snippet.text for snippet in transcript])
 
         expert_dir = os.path.join(OUTPUT_DIR, expert_name)
         os.makedirs(expert_dir, exist_ok=True)
